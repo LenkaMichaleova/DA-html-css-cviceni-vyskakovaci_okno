@@ -2,6 +2,13 @@ body {
   font: 16px/1.5 sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 2%;
+}
 .modal {
   width: 50vw;
   height: 40vh;
@@ -9,6 +16,8 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: relative;
+  left: 200px;
 }
 
 button {
@@ -20,11 +29,45 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  right: 2%;
+  top: 5%;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
 }
 
 /* sem přijdou tvoje styly */
+.modal2 {
+  width: 50vw;
+  height: 40vh;
+  border: 15px solid #8a040d;
+  background-color: #e4bcbc;
+  border-radius: 10px;
+  font-size: 30px;
+  position: fixed;
+  left: 20vw;
+  top: 20vh;
+}
+
+.ano {
+  background-color: #dd2c93;
+  color: white;
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
+}
+
+.ne {
+  color: black;
+  width: 30px;
+  border-radius: 3px;
+  position: absolute;
+  right: 2%;
+  top: 5%;
+}
